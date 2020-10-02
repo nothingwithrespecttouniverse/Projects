@@ -39,13 +39,13 @@ ch=1
 while(ch!="0"):
     print("|"*333)
     print("MENU")
-    print("1. show list of books ")                                                                                                    #completed
-    print("2. issue a book ")                                                                                                             #completed
-    print("3. return a book")                                                                                                             #completed
-    print("4. information of students those who don't rerurn the book")
+    print("1. Show list of books ")                                                                                                    #completed
+    print("2. Issue a book ")                                                                                                             #completed
+    print("3. Return a book")                                                                                                             #completed
+    print("4. Information of students those who don't rerurn the book")
     print("5.information of all the student")
-    print("0.exit ")                                                                                                                             #completed
-    ch=input("enter your choice :  ")
+    print("0.Exit ")                                                                                                                             #completed
+    ch=input("Enter your choice :  ")
     if(ch=="1"):
         
         print("***************************************************")
@@ -81,7 +81,7 @@ while(ch!="0"):
         elif(ch1=="0"):
             print("ok")
         else:
-            print ("anpadh hai kya ")
+            print ("Anpadh hai kya ? ")
             '--------------------------------------------------------------------------------------------------issue a book--------------------------------------------------------------------------------------'
     elif(ch=="2"):
         admn1=input("enter the admission number : ")
